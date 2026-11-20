@@ -1,0 +1,101 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.lumenary.academy" }],
+      "destination": "https://lumenary.academy/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/lingua/spanish/:path(.*)?",
+      "destination": "https://lingua.lumenary.academy/en/spanish/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/lingua/ingles/:path(.*)?",
+      "destination": "https://lingua.lumenary.academy/es/ingles/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/lingua/:path(.*)?",
+      "destination": "https://lingua.lumenary.academy/:locale/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/math/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/math/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/cs/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/cs/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/ee/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/ee/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/robotics/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/robotics/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/chemistry/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/chemistry/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/me/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/me/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/materials/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/materials/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/statistics/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/statistics/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/lab/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/lab/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/formal/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/formal/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/practice/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/practice/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/progress/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/progress/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/educators/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/educators/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/verification/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/verification/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(en|es|ar|hi|sw|zh-Hans)/languages/:path(.*)?",
+      "destination": "https://scientia.lumenary.academy/:locale/languages/:path",
+      "permanent": true
+    }
+  ]
+}
