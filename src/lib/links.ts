@@ -2,8 +2,8 @@
  * Every address this site links to outside itself: the three divisions' sites, this repository and
  * its licences. Change a division's address here, once.
  *
- * @lumenary/core exports the same constants, but v0.1.0 still points SCIENTIA_URL at the old
- * lumenary.academy pages, so this site keeps its own.
+ * @lumenary/core exports similar constants, but with a trailing slash; this site keeps its own, without
+ * one, and builds its paths from them.
  */
 
 /** The canonical origin of this site, for metadata and the sitemap. */
