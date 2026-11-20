@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "Divisiones",
+    "contribute": "Colaborar",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "Divisiones",
+      "contribute": "Colaborar"
+    }
+  },
+  "divisions": {
+    "tryLesson": "Prueba una lección",
+    "prepTry": "Lecciones de muestra gratuitas",
+    "prepTryNote": "Lumenary Prep es de pago. Estas lecciones son muestras gratuitas de sus cursos.",
+    "subjectsTitle": "Las materias",
+    "subjectsLead": "Cada materia empieza desde los primeros pasos y llega hasta la frontera. Todas son gratuitas y de código abierto, y cada lección es un primer borrador a la espera de revisión por un experto humano.",
+    "mathematics": "Matemáticas",
+    "statistics": "Estadística",
+    "computerScience": "Informática",
+    "programmingLanguages": "Lenguajes de programación",
+    "electricalEngineering": "Ingeniería eléctrica",
+    "robotics": "Robótica",
+    "chemistry": "Química",
+    "mechanicalEngineering": "Ingeniería mecánica",
+    "materialsScience": "Ciencia de materiales",
+    "physics": "Física",
+    "biology": "Biología",
+    "otherSciences": "Otras ciencias",
+    "mathematicsText": "Del conteo al posgrado, con intuición, demostración formal y cálculo.",
+    "statisticsText": "De los promedios y los gráficos a la computación bayesiana, la inferencia causal y la estadística de la IA.",
+    "computerScienceText": "De un primer programa a los algoritmos, los sistemas a gran escala y la frontera de la IA.",
+    "programmingLanguagesText": "Un curso por cada lenguaje importante, de Assembly a Zig, con cada programa ejecutado.",
+    "electricalEngineeringText": "De un primer circuito a los chips, la radio, las redes eléctricas y el hardware cuántico.",
+    "roboticsText": "De un primer robot que se mueve al control, la percepción, la planificación y el aprendizaje de robots.",
+    "chemistryText": "De los átomos y las reacciones a la química cuántica, la síntesis y las moléculas de la investigación actual.",
+    "mechanicalEngineeringText": "De las fuerzas y las máquinas a la termodinámica, los fluidos, el diseño y la fabricación.",
+    "materialsScienceText": "De los átomos y los cristales a los metales, los polímeros, los semiconductores y los materiales hallados con IA."
+  },
+  "footer": {
+    "project": "Proyecto"
+  },
+  "academy": {
+    "visitScientia": "Visitar Lumenary Scientia",
+    "notFound": {
+      "title": "Esta página no existe.",
+      "text": "Puede que el enlace esté desactualizado o que la dirección tenga un error."
+    }
+  }
+}

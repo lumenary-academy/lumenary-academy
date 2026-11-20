@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "Divisions",
+    "contribute": "Contribute",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "Divisions",
+      "contribute": "Contribute"
+    }
+  },
+  "divisions": {
+    "tryLesson": "Try a lesson",
+    "prepTry": "Free sample lessons",
+    "prepTryNote": "Lumenary Prep is paid. These lessons are free samples of its courses.",
+    "subjectsTitle": "The subjects",
+    "subjectsLead": "Each subject starts from first steps and climbs to the frontier. All of them are free and open source, and every lesson is a first draft awaiting review by a human expert.",
+    "mathematics": "Mathematics",
+    "statistics": "Statistics",
+    "computerScience": "Computer science",
+    "programmingLanguages": "Programming languages",
+    "electricalEngineering": "Electrical engineering",
+    "robotics": "Robotics",
+    "chemistry": "Chemistry",
+    "mechanicalEngineering": "Mechanical engineering",
+    "materialsScience": "Materials science",
+    "physics": "Physics",
+    "biology": "Biology",
+    "otherSciences": "Other sciences",
+    "mathematicsText": "From counting to graduate school, taught through intuition, formal proof and computation.",
+    "statisticsText": "From averages and charts to Bayesian computation, causal inference and the statistics of AI.",
+    "computerScienceText": "From a first program to algorithms, systems at scale and the frontier of AI.",
+    "programmingLanguagesText": "A course for each major language, from Assembly to Zig, with every program run.",
+    "electricalEngineeringText": "From a first circuit to chips, radios, power grids and quantum hardware.",
+    "roboticsText": "From a first moving robot to control, perception, planning and robot learning.",
+    "chemistryText": "From atoms and reactions to quantum chemistry, synthesis and the molecules of today's research.",
+    "mechanicalEngineeringText": "From forces and machines to thermodynamics, fluids, design and manufacturing.",
+    "materialsScienceText": "From atoms and crystals to metals, polymers, semiconductors and materials found with AI."
+  },
+  "footer": {
+    "project": "Project"
+  },
+  "academy": {
+    "visitScientia": "Visit Lumenary Scientia",
+    "notFound": {
+      "title": "This page doesn't exist.",
+      "text": "The link may be out of date, or the address may have a typo."
+    }
+  }
+}

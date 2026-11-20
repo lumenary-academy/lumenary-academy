@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "الأقسام",
+    "contribute": "المساهمة",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "الأقسام",
+      "contribute": "المساهمة"
+    }
+  },
+  "divisions": {
+    "tryLesson": "جرّب درسًا",
+    "prepTry": "دروس نموذجية مجانية",
+    "prepTryNote": "Lumenary Prep خدمة مدفوعة. هذه الدروس عيّنات مجانية من دوراتها.",
+    "subjectsTitle": "المواد الدراسية",
+    "subjectsLead": "تبدأ كل مادة من الخطوات الأولى وتصعد حتى آفاق المعرفة. كلها مجانية ومفتوحة المصدر، وكل درس فيها مسودة أولى تنتظر مراجعة خبير بشري.",
+    "mathematics": "الرياضيات",
+    "statistics": "الإحصاء",
+    "computerScience": "علوم الحاسوب",
+    "programmingLanguages": "لغات البرمجة",
+    "electricalEngineering": "الهندسة الكهربائية",
+    "robotics": "الروبوتات",
+    "chemistry": "الكيمياء",
+    "mechanicalEngineering": "الهندسة الميكانيكية",
+    "materialsScience": "علم المواد",
+    "physics": "الفيزياء",
+    "biology": "الأحياء",
+    "otherSciences": "علوم أخرى",
+    "mathematicsText": "من العدّ إلى الدراسات العليا، عبر الحدس والبرهان الصوري والحساب.",
+    "statisticsText": "من المتوسطات والرسوم البيانية إلى الحوسبة البايزية والاستدلال السببي وإحصاء الذكاء الاصطناعي.",
+    "computerScienceText": "من أول برنامج إلى الخوارزميات والأنظمة الكبيرة وآفاق الذكاء الاصطناعي.",
+    "programmingLanguagesText": "مقرر لكل لغة برمجة رئيسية، من Assembly إلى Zig، مع تشغيل كل برنامج.",
+    "electricalEngineeringText": "من أول دارة كهربائية إلى الرقائق والراديو وشبكات الكهرباء والعتاد الكمومي.",
+    "roboticsText": "من أول روبوت يتحرك إلى التحكم والإدراك والتخطيط وتعلّم الروبوتات.",
+    "chemistryText": "من الذرات والتفاعلات إلى الكيمياء الكمومية والتخليق وجزيئات البحث العلمي اليوم.",
+    "mechanicalEngineeringText": "من القوى والآلات إلى الديناميكا الحرارية والموائع والتصميم والتصنيع.",
+    "materialsScienceText": "من الذرات والبلورات إلى الفلزات والبوليمرات وأشباه الموصلات والمواد المكتشفة بالذكاء الاصطناعي."
+  },
+  "footer": {
+    "project": "المشروع"
+  },
+  "academy": {
+    "visitScientia": "زُر Lumenary Scientia",
+    "notFound": {
+      "title": "هذه الصفحة غير موجودة.",
+      "text": "ربما يكون الرابط قديمًا، أو في العنوان خطأ مطبعي."
+    }
+  }
+}

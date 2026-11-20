@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "分部",
+    "contribute": "参与贡献",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "分部",
+      "contribute": "参与贡献"
+    }
+  },
+  "divisions": {
+    "tryLesson": "试学一节课",
+    "prepTry": "免费样课",
+    "prepTryNote": "Lumenary Prep 是付费服务。这些课是其课程的免费样课。",
+    "subjectsTitle": "学科",
+    "subjectsLead": "每个学科都从入门开始，一直延伸到前沿。全部免费且开源，每节课都是初稿，等待人类专家审阅。",
+    "mathematics": "数学",
+    "statistics": "统计学",
+    "computerScience": "计算机科学",
+    "programmingLanguages": "编程语言",
+    "electricalEngineering": "电气工程",
+    "robotics": "机器人学",
+    "chemistry": "化学",
+    "mechanicalEngineering": "机械工程",
+    "materialsScience": "材料科学",
+    "physics": "物理",
+    "biology": "生物",
+    "otherSciences": "其他科学",
+    "mathematicsText": "从数数到研究生阶段，结合直觉、形式化证明与计算。",
+    "statisticsText": "从平均数与图表到贝叶斯计算、因果推断与人工智能的统计学。",
+    "computerScienceText": "从第一个程序到算法、大规模系统与人工智能前沿。",
+    "programmingLanguagesText": "每种主要编程语言一门课，从 Assembly 到 Zig，每个程序都经实际运行。",
+    "electricalEngineeringText": "从第一个电路到芯片、无线电、电网与量子硬件。",
+    "roboticsText": "从第一个会动的机器人到控制、感知、规划与机器人学习。",
+    "chemistryText": "从原子与反应到量子化学、合成与当今研究中的分子。",
+    "mechanicalEngineeringText": "从力与机械到热力学、流体、设计与制造。",
+    "materialsScienceText": "从原子与晶体到金属、聚合物、半导体以及借助人工智能发现的材料。"
+  },
+  "footer": {
+    "project": "项目"
+  },
+  "academy": {
+    "visitScientia": "访问 Lumenary Scientia",
+    "notFound": {
+      "title": "此页面不存在。",
+      "text": "链接可能已经过时，或者网址有拼写错误。"
+    }
+  }
+}

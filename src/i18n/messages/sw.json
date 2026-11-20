@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "Vitengo",
+    "contribute": "Changia",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "Vitengo",
+      "contribute": "Changia"
+    }
+  },
+  "divisions": {
+    "tryLesson": "Jaribu somo",
+    "prepTry": "Masomo ya mfano ya bure",
+    "prepTryNote": "Lumenary Prep ni ya kulipia. Masomo haya ni sampuli za bure za kozi zake.",
+    "subjectsTitle": "Fani za masomo",
+    "subjectsLead": "Kila fani inaanzia hatua za kwanza na kupanda hadi mipaka ya maarifa. Zote ni za bure na za chanzo huria, na kila somo ni rasimu ya kwanza inayosubiri mapitio ya mtaalamu wa binadamu.",
+    "mathematics": "Hisabati",
+    "statistics": "Takwimu",
+    "computerScience": "Sayansi ya kompyuta",
+    "programmingLanguages": "Lugha za programu",
+    "electricalEngineering": "Uhandisi wa umeme",
+    "robotics": "Roboti",
+    "chemistry": "Kemia",
+    "mechanicalEngineering": "Uhandisi wa mitambo",
+    "materialsScience": "Sayansi ya nyenzo",
+    "physics": "Fizikia",
+    "biology": "Biolojia",
+    "otherSciences": "Sayansi nyingine",
+    "mathematicsText": "Kuanzia kuhesabu hadi masomo ya uzamili, kwa angavu, uthibitisho rasmi na ukokotoaji.",
+    "statisticsText": "Kuanzia wastani na chati hadi ukokotoaji wa Bayes, makisio ya kisababishi na takwimu za AI.",
+    "computerScienceText": "Kuanzia programu ya kwanza hadi algoriti, mifumo mikubwa na mipaka ya AI.",
+    "programmingLanguagesText": "Kozi kwa kila lugha kuu ya programu, kuanzia Assembly hadi Zig, kila programu ikiendeshwa.",
+    "electricalEngineeringText": "Kuanzia saketi ya kwanza hadi chipu, redio, gridi za umeme na maunzi ya kwantamu.",
+    "roboticsText": "Kuanzia roboti ya kwanza inayotembea hadi udhibiti, utambuzi, upangaji na ujifunzaji wa roboti.",
+    "chemistryText": "Kuanzia atomi na mmenyuko hadi kemia ya kwantamu, usanisi na molekuli za utafiti wa leo.",
+    "mechanicalEngineeringText": "Kuanzia nguvu na mashine hadi thermodinamiki, vimiminika, usanifu na utengenezaji.",
+    "materialsScienceText": "Kuanzia atomi na fuwele hadi metali, polima, halvikondukta na nyenzo zilizogunduliwa kwa AI."
+  },
+  "footer": {
+    "project": "Mradi"
+  },
+  "academy": {
+    "visitScientia": "Tembelea Lumenary Scientia",
+    "notFound": {
+      "title": "Ukurasa huu haupo.",
+      "text": "Huenda kiungo kimepitwa na wakati, au anwani ina kosa la uchapaji."
+    }
+  }
+}

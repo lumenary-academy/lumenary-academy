@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "scientia": "Lumenary Scientia",
+    "lingua": "Lumenary Lingua",
+    "prep": "Lumenary Prep",
+    "divisions": "विभाग",
+    "contribute": "योगदान दें",
+    "short": {
+      "scientia": "Scientia",
+      "lingua": "Lingua",
+      "prep": "Prep",
+      "divisions": "विभाग",
+      "contribute": "योगदान दें"
+    }
+  },
+  "divisions": {
+    "tryLesson": "एक पाठ आज़माएँ",
+    "prepTry": "निःशुल्क नमूना पाठ",
+    "prepTryNote": "Lumenary Prep सशुल्क है। ये पाठ उसके पाठ्यक्रमों के निःशुल्क नमूने हैं।",
+    "subjectsTitle": "विषय",
+    "subjectsLead": "हर विषय पहले कदम से शुरू होकर अग्रिम सीमा तक जाता है। सभी निःशुल्क और ओपन-सोर्स हैं, और हर पाठ पहला मसौदा है जो किसी मानव विशेषज्ञ की समीक्षा की प्रतीक्षा में है।",
+    "mathematics": "गणित",
+    "statistics": "सांख्यिकी",
+    "computerScience": "कंप्यूटर विज्ञान",
+    "programmingLanguages": "प्रोग्रामिंग भाषाएँ",
+    "electricalEngineering": "विद्युत अभियांत्रिकी",
+    "robotics": "रोबोटिक्स",
+    "chemistry": "रसायन विज्ञान",
+    "mechanicalEngineering": "यांत्रिक अभियांत्रिकी",
+    "materialsScience": "पदार्थ विज्ञान",
+    "physics": "भौतिकी",
+    "biology": "जीव विज्ञान",
+    "otherSciences": "अन्य विज्ञान",
+    "mathematicsText": "गिनती से स्नातकोत्तर तक, अंतर्ज्ञान, औपचारिक उपपत्ति और संगणना के साथ।",
+    "statisticsText": "औसत और चार्ट से बेज़ियन संगणना, कारणात्मक अनुमान और AI की सांख्यिकी तक।",
+    "computerScienceText": "पहले प्रोग्राम से एल्गोरिद्म, बड़े पैमाने के सिस्टम और AI की अग्रिम सीमा तक।",
+    "programmingLanguagesText": "हर प्रमुख भाषा का एक पाठ्यक्रम, Assembly से Zig तक, हर प्रोग्राम चलाकर जाँचा गया।",
+    "electricalEngineeringText": "पहले परिपथ से चिप, रेडियो, बिजली ग्रिड और क्वांटम हार्डवेयर तक।",
+    "roboticsText": "पहले चलते रोबोट से नियंत्रण, बोध, योजना और रोबोट-अधिगम तक।",
+    "chemistryText": "परमाणुओं और अभिक्रियाओं से क्वांटम रसायन, संश्लेषण और आज के शोध के अणुओं तक।",
+    "mechanicalEngineeringText": "बलों और मशीनों से ऊष्मागतिकी, तरल, डिज़ाइन और विनिर्माण तक।",
+    "materialsScienceText": "परमाणुओं और क्रिस्टलों से धातुओं, बहुलकों, अर्धचालकों और AI से खोजे गए पदार्थों तक।"
+  },
+  "footer": {
+    "project": "परियोजना"
+  },
+  "academy": {
+    "visitScientia": "Lumenary Scientia पर जाएँ",
+    "notFound": {
+      "title": "यह पृष्ठ मौजूद नहीं है।",
+      "text": "हो सकता है लिंक पुराना हो, या पते में कोई टाइपिंग की गलती हो।"
+    }
+  }
+}
