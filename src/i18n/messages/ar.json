@@ -49,6 +49,12 @@
     "notFound": {
       "title": "هذه الصفحة غير موجودة.",
       "text": "ربما يكون الرابط قديمًا، أو في العنوان خطأ مطبعي."
+    },
+    "tutors": {
+      "title": "مدرّسون خصوصيون وصفوف",
+      "text": "دروس Lumenary Scientia وLumenary Lingua مجانية ومكتملة بذاتها. وإن أردت أن يعلّمك شخص، فهناك مدرّسون مستقلون ومؤسسات يقدّمون دروسًا وصفوفًا عبر Gideon Tasks، وهي سوق إلكترونية منفصلة.",
+      "owner": "تدير Gideon Tasks شركة Gideon Solutions, LLC، المملوكة للجهة نفسها التي تملك Lumenary Academy.",
+      "link": "الدروس الخصوصية على Gideon Tasks"
     }
   }
 }

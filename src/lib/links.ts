@@ -1,6 +1,6 @@
 /**
- * Every address this site links to outside itself: the three divisions' sites, this repository and
- * its licences. Change a division's address here, once.
+ * Every address this site links to outside itself: the three divisions' sites, tutoring on Gideon
+ * Tasks, this repository and its licences. Change a division's address here, once.
  *
  * @lumenary/core exports similar constants, but with a trailing slash; this site keeps its own, without
  * one, and builds its paths from them.
@@ -17,6 +17,12 @@ export const LINGUA_URL = "https://lingua.lumenary.academy";
 
 /** Lumenary Prep, exam preparation: a paid service, in English only. */
 export const PREP_URL = "https://prep.lumenary.academy";
+
+/**
+ * Tutors and classes on Gideon Tasks, a separate marketplace run by Gideon Solutions, LLC. The site
+ * links it once, from one section of the front page.
+ */
+export const TUTORING_URL = "https://www.gideontasks.com/tutoring";
 
 export const SOURCE_URL = "https://github.com/lumenary-academy/lumenary-academy";
 export const CODE_LICENCE_URL = `${SOURCE_URL}/blob/main/LICENSE`;

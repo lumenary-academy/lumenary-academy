@@ -32,7 +32,7 @@ The site is a static export in the six interface languages (`en`, `es`, `ar`, `h
 | Address | Page |
 | --- | --- |
 | `/` | Picks a language: a remembered choice, else the browser's preferences, else English |
-| `/<locale>/` | The front page: the three divisions, Scientia's subjects with lessons to try, Lingua's and Prep's sample lessons |
+| `/<locale>/` | The front page: the three divisions, Scientia's subjects with lessons to try, Lingua's and Prep's sample lessons, and a short section on tutors and classes |
 | `/<locale>/about/` | About Lumenary Academy (`content/pages/about/en.mdx`) |
 | `/<locale>/divisions/` | The three divisions (`content/pages/divisions/en.mdx`) |
 | `/<locale>/contribute/` | How to help each division (`content/pages/contribute/en.mdx`) |
@@ -68,6 +68,10 @@ Scientia's, Lingua's and Prep's content lives in their repositories, so this sit
 
 Scientia's course pages (Chemistry, CS and the rest) exist only in English, so the front page links them at `/en/…`. Lumenary Math's front page and the lessons translated into the reader's language are linked in that language. `Collections`, Math's first lesson, exists in all six languages. All other sample lessons are linked in English. `scientiaRouting` in `src/lib/subjects.ts` describes this with the core's `createRouting`.
 
+### Tutors and classes
+
+The front page ends with one plain section, "Tutors & classes" (`academy.tutors.*`). It says that Lumenary Scientia's and Lumenary Lingua's lessons are free and complete on their own, and that anyone who wants a person to teach them can find independent tutors and organisations' lessons and classes on Gideon Tasks, a separate marketplace. It says that Gideon Tasks is run by Gideon Solutions, LLC, under the same ownership as Lumenary Academy, and links its tutoring page (`TUTORING_URL` in `src/lib/links.ts`) once. It names no prices and appears nowhere else on the site.
+
 ## How it uses @lumenary/core
 
 The site is built on [@lumenary/core](https://github.com/lumenary-academy/lumenary-core) in the same way as [lumenary-lingua](https://github.com/lumenary-academy/lumenary-lingua). The core is installed from its release tarball (`v0.1.0`, see `package.json`):
@@ -95,6 +99,7 @@ Every non-English interface string is an unreviewed machine draft. Most were cop
 
 - `academy.visitScientia` ("Visit Lumenary Scientia"): written for this site from the existing translation of "Visit Lumenary Prep" (`divisions.prepCta`), with the division's name changed.
 - `academy.notFound.title`, `academy.notFound.text` (the not-found message): copied from Lumenary Lingua's `lingua.notFound.*`, which are also awaiting review there.
+- `academy.tutors.*` (the front page's "Tutors & classes" section): machine drafts written for this section, the same wording as Lumenary Scientia's and Lumenary Lingua's except the first sentence. "Gideon Tasks", "Gideon Solutions, LLC" and "Lumenary Academy" stay untranslated.
 
 The 404 page and the language-picking root page are in English, because they cannot know the reader's language. They link to every locale's front page by its own name. The prose pages in `content/pages` are in English only.
 

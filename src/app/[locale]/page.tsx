@@ -5,7 +5,7 @@ import type { LucideIcon } from "lucide-react";
 import { DIVISIONS } from "@lumenary/core/brand";
 import { resolveLocale } from "@lumenary/core/i18n/server";
 import { href, i18n } from "@/lib/site";
-import { PREP_URL, linguaHome, scientiaHome } from "@/lib/links";
+import { PREP_URL, TUTORING_URL, linguaHome, scientiaHome } from "@/lib/links";
 import { LINGUA_SAMPLES, PREP_SAMPLES, linguaLesson, prepLesson } from "@/lib/samples";
 import { SCIENTIA_PENDING, SCIENTIA_SUBJECTS, sampleLesson, scientiaHref } from "@/lib/subjects";
 import { SUBJECT_LOOK } from "@/components/subject-look";
@@ -66,7 +66,7 @@ function TryLessons({ title, samples, note, className = "" }: { title: string; s
   );
 }
 
-/** Lumenary Academy's front page: its three divisions, Scientia's subjects, and lessons to try in each division. */
+/** Lumenary Academy's front page: its three divisions, Scientia's subjects, lessons to try in each division, and where to find a tutor or class. */
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await resolveLocale(params);
   const t = await i18n.getT(locale);
@@ -206,6 +206,22 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <Link href={href(locale, "divisions")} className="link font-semibold">
               {t("divisions.more")}
             </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* The one pointer to tutors and classes: a separate marketplace, disclosed, on this page only. */}
+      <section id="tutors" className="scroll-mt-20 border-t border-line" aria-labelledby="tutors-title">
+        <div className="container-page py-12 sm:py-14">
+          <h2 id="tutors-title" className="text-2xl font-semibold text-ink">
+            {t("academy.tutors.title")}
+          </h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink-2">{t("academy.tutors.text")}</p>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">{t("academy.tutors.owner")}</p>
+          <p className="mt-4">
+            <a href={TUTORING_URL} className="link inline-flex items-center gap-1 font-semibold">
+              {t("academy.tutors.link")} {external}
+            </a>
           </p>
         </div>
       </section>
