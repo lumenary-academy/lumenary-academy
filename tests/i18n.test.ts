@@ -55,6 +55,12 @@ describe("the site's message catalogues", () => {
       it("keeps the brand names untranslated", () => {
         for (const k of ["nav.scientia", "nav.lingua", "nav.prep"]) expect(flat.get(k)).toBe(en.get(k));
         expect(flat.get("academy.visitScientia")).toContain("Lumenary Scientia");
+        for (const k of ["text", "owner", "link"]) expect(flat.get(`academy.tutors.${k}`), k).toContain("Gideon Tasks");
+        expect(flat.get("academy.tutors.owner")).toContain("Gideon Solutions, LLC");
+        expect(flat.get("academy.tutors.owner")).toContain("Lumenary Academy");
+      });
+      it("names no price in the tutors and classes section", () => {
+        for (const k of ["title", "text", "owner", "link"]) expect(flat.get(`academy.tutors.${k}`), k).not.toMatch(/[$€£₹¥]|\d/);
       });
     });
   }

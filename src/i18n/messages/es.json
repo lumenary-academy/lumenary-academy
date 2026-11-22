@@ -49,6 +49,12 @@
     "notFound": {
       "title": "Esta página no existe.",
       "text": "Puede que el enlace esté desactualizado o que la dirección tenga un error."
+    },
+    "tutors": {
+      "title": "Tutores y clases",
+      "text": "Las lecciones de Lumenary Scientia y Lumenary Lingua son gratuitas y completas por sí solas. Si quieres que una persona te enseñe, tutores independientes y organizaciones ofrecen lecciones y clases a través de Gideon Tasks, un mercado en línea aparte.",
+      "owner": "Gideon Tasks lo gestiona Gideon Solutions, LLC, que tiene los mismos propietarios que Lumenary Academy.",
+      "link": "Tutorías en Gideon Tasks"
     }
   }
 }

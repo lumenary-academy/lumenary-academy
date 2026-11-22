@@ -1,7 +1,8 @@
 /**
  * The front page in every locale: it renders, shows the three divisions, Scientia's subjects with their
- * sample lessons, and Lingua's and Prep's samples, and every link to a division's site is absolute,
- * well formed and in the right locale.
+ * sample lessons, Lingua's and Prep's samples, and one section on tutors and classes; every link to a
+ * division's site is absolute, well formed and in the right locale, and the only other link goes to
+ * tutoring on Gideon Tasks, once.
  */
 import { describe, expect, it } from "vitest";
 import { LOCALES, makeT } from "@lumenary/core/i18n";
@@ -9,6 +10,7 @@ import HomePage from "@/app/[locale]/page";
 import { i18n } from "@/lib/site";
 import { LINGUA_SAMPLES, PREP_SAMPLES, linguaLesson, prepLesson } from "@/lib/samples";
 import { SCIENTIA_PENDING, SCIENTIA_SUBJECTS, sampleLesson, scientiaHref } from "@/lib/subjects";
+import { TUTORING_URL } from "@/lib/links";
 import { divisionLinkProblem, hrefs, renderPage, strayRelative } from "./helpers";
 
 const decode = (html: string) => html.replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
@@ -18,7 +20,7 @@ describe.each(LOCALES)("the front page in %s", (locale) => {
     const html = decode(await renderPage(HomePage, locale));
     const t = makeT(await i18n.getMessages(locale));
     for (const name of ["Lumenary Scientia", "Lumenary Lingua", "Lumenary Prep"]) expect(html).toContain(name);
-    for (const key of ["divisions.lead", "divisions.scientiaText", "divisions.linguaText", "divisions.prepText", "divisions.prepTryNote", "divisions.subjectsTitle", "academy.visitScientia"])
+    for (const key of ["divisions.lead", "divisions.scientiaText", "divisions.linguaText", "divisions.prepText", "divisions.prepTryNote", "divisions.subjectsTitle", "academy.visitScientia", "academy.tutors.title", "academy.tutors.text", "academy.tutors.owner", "academy.tutors.link"])
       expect(html, key).toContain(t(key));
     for (const s of SCIENTIA_SUBJECTS) {
       expect(html).toContain(t(`divisions.${s.key}`));
@@ -40,8 +42,9 @@ describe.each(LOCALES)("the front page in %s", (locale) => {
 
   it("links every division absolutely, in a well-formed address", async () => {
     const links = hrefs(await renderPage(HomePage, locale));
-    const external = links.filter((h) => /^https?:/.test(h));
+    const external = links.filter((h) => /^https?:/.test(h) && h !== TUTORING_URL);
     expect(external.length).toBeGreaterThan(20);
+    expect(links.filter((h) => h === TUTORING_URL)).toHaveLength(1);
     for (const h of external) expect(divisionLinkProblem(h), h).toBeNull();
     // The only links that stay on this site: the subjects anchor and the divisions page.
     expect(links.filter((h) => !/^https:/.test(h)).sort()).toEqual(["#subjects", `/${locale}/divisions/`]);
